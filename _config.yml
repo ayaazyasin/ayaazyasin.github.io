@@ -1,6 +1,22 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: Ayaaz Yasin
+logo: /assets/img/ayaazyasin.png
+description: Graduate student studying liquid-vapor phase change.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+# Site Author
+author:
+  name             : "Ayaaz Yasin"
+  location         : "University of Cincinnati"
+  email            : "yasinaz@mail.uc.edu"
+  cv               : "assets/files/AyaazYasin-CV.pdf"
+  googlescholar    : "https://scholar.google.com/citations?user=OyLSrL0AAAAJ&hl=en&oi=ao"
+  github           : "ayaazyasin"
+  linkedin         : "ayaazyasin"
+  orcid            : "https://orcid.org/0009-0000-2258-8827"
+
+github: [metadata]
