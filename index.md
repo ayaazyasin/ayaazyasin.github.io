@@ -52,6 +52,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
     <dt>3. <b>A Numerical Study of Coefficient-free Kinetic Evaporation Modeling in Liquid Hydrogen</b></dt>
     <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
     <dd>76th American Physical Society Division of Fluid Dynamics Annual Meeting, 19-21 November 2023, Washington, D.C.</dd>
+    <dd><a href="https://meetings.aps.org/Meeting/DFD23/Session/R36.8" target="_blank">Abstract</a></dd>
 <!---->
     <dt>2. <b>An investigation of Marangoni induced flow in Constrained Vapor Bubble ISS experiments</b></dt>
     <dd><b>Ayaaz Yasin</b>, Unmeelan Chakrabarti, Kishan Bellur, and Jefferey Allen</dd>
@@ -68,9 +69,10 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 <!---->
     <dt>2. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
     <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
-    <dd>5th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
+    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
 <!---->
     <dt>1. <b>A CFD model of evaporation in liquid Hydrogen without the need for tuning coefficients</b></dt>
     <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
     <dd>75th American Physical Society Division of Fluid Dynamics Annual Meeting, 20-22 November 2022, Indianapolis, IN.</dd>
+    <dd><a href="https://meetings.aps.org/Meeting/DFD22/Session/S01.24" target="_blank">Abstract</a></dd>
 </dl>
