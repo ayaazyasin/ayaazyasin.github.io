@@ -17,6 +17,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </ul>
 <details style="margin-left: 28px;" class="less_space">
 <summary>Older News</summary>
+<ul style="margin-left: -28px;">
     <li><strong>Nov 2023</strong> Presented at the <a href="https://meetings.aps.org/Meeting/DFD23/Session/R36.8" target="_blank">2023 American Physical Society Division of Fluid Dynamics</a> conference.</li> 
     <li><strong>Aug 2023</strong> Started teaching ENED 1100 and 1120 Foundations of Engineering Design Thinking as the instructor of record.</li>
     <li><strong>Apr 2023</strong> Presented at the <a href="http://mufmech.org/archive/programs/2023_Program.pdf" target="_blank">2023 Midwest Universities Fluid Mechanics Retreat</a>.</li> 
@@ -24,4 +25,5 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
     <li><strong>Nov 2022</strong> Presented a poster at the <a href="https://meetings.aps.org/Meeting/DFD22/Session/S01.24" target="_blank">2023 American Physical Society Division of Fluid Dynamics</a> conference.</li>
     <li><strong>Oct 2022</strong> Started a Research Assistantship at the <a href="https://ceas.uc.edu/research/centers-labs/uc-simulation-center.html" target="_blank">P&G Digital Accelerator</a>.</li>
     <li><strong>Aug 2022</strong> Started my Master's in the Dept of Aerospace Engineering.</li>
+</ul>
 </details>
