@@ -33,7 +33,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 
 <dl>
     <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments.</b></a></dt>
-    <dd>Unmeelan Chakrabarti, \textbf{Ayaaz Yasin}, Kishan Bellur, and Jeffrey Allen</dd>
-    <dd>Frontiers in Space Technologies - Microgravity. Volume 4 - 2023. doi: 10.3389/frspt.2023.1263496</dd>
-    <dd><a href="assets/files/chakrabarti_2023.pdf">PDF</dd>
+    <dd>Unmeelan Chakrabarti, Ayaaz Yasin, Kishan Bellur, and Jeffrey Allen</dd>
+    <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
+    <dd><a href="assets/files/chakrabarti_2023.pdf">PDF</a></dd>
 </dl>
