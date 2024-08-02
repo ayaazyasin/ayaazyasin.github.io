@@ -29,11 +29,48 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </details>
 
 *** 
-### Publications
+### Peer-Reviewed Publications
 
 <dl>
-    <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments.</b></a></dt>
-    <dd>Unmeelan Chakrabarti, Ayaaz Yasin, Kishan Bellur, and Jeffrey Allen</dd>
+    <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></a></dt>
+    <dd>Unmeelan Chakrabarti*, <b>Ayaaz Yasin*</b>, Kishan Bellur, and Jeffrey Allen</dd>
     <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
     <dd><a href="assets/files/chakrabarti_2023.pdf">PDF</a></dd>
+</dl>
+
+### Conference Talks
+
+<dl>
+<!---->
+    <dt>5. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
+    <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
+    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
+<!---->
+    <dt>4. <b>Modeling evaporation without tuning coefficients</b></dt>
+    <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
+    <dd>51th Midwestern University Fluid Mechanics Retreat, 12-14 April 2023, Rochester, IN</dd>
+<!---->
+    <dt>3. <b>A Numerical Study of Coefficient-free Kinetic Evaporation Modeling in Liquid Hydrogen</b></dt>
+    <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
+    <dd>76th American Physical Society Division of Fluid Dynamics Annual Meeting, 19-21 November 2023, Washington, D.C.</dd>
+<!---->
+    <dt>2. <b>An investigation of Marangoni induced flow in Constrained Vapor Bubble ISS experiments</b></dt>
+    <dd><b>Ayaaz Yasin</b>, Unmeelan Chakrabarti, Kishan Bellur, and Jefferey Allen</dd>
+    <dd>50th Midwestern University Fluid Mechanics Retreat, 13-15 April 2023, Rochester, IN.</dd>
+<!---->
+    <dt>1. <b>University of Cincinnati Aerial Vehicles (UCAV) Team's solution to the 2022 AUVSI Student Unmanned Aerial Systems competition.</b></dt>
+    <dd><b>Ayaaz Yasin</b>, Rebecca Gilligan, Daniel Heitmeyer, and Kelley Cohen</dd>
+    <dd>AIAA Region III Student Conference, 23 March 2022, Purdue University.</dd>
+</dl>
+
+### Conference Posters
+<dl>
+<!---->
+    <dt>2. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
+    <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
+    <dd>5th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
+<!---->
+    <dt>1. <b>A CFD model of evaporation in liquid Hydrogen without the need for tuning coefficients</b></dt>
+    <dd><b>Ayaaz Yasin</b> and Kishan Bellur</dd>
+    <dd>75th American Physical Society Division of Fluid Dynamics Annual Meeting, 20-22 November 2022, Indianapolis, IN.</dd>
 </dl>
