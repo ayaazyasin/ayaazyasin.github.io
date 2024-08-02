@@ -1,4 +1,4 @@
-### About Me <h3 id="about"> </h3>
+<h3 id="about">About Me</h3>
 
 I am a PhD student in the Department of Mechanical and Materials Engineering at the University of Cincinnati working with the <a href="https://ceas.uc.edu/research/centers-labs/lab-for-interfacial-dynamics.html" target="_blank">UC Lab for Interfacial Dynamics</a> under the supervision of <a href="https://researchdirectory.uc.edu/p/bellurkn" target="_blank">Dr. Kishan Bellur</a>. Broadly my research is focused on modeling liquid-vapor phase change and related interfacial phenomena. Other research interests include computational fluid dynamics for multiphase flows, scientific computing, and fluid mechanics in microgravity. My current research is focused on addressing the use of tuning parameters in phase change models and developing a physics-based computational model of evaporation in cryogenic space fuels such as Hydrogen and Methane. 
 
@@ -7,7 +7,7 @@ During my graduate career, I have worked as a Research Assistant at the <a href=
 Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my Bachelor of Science in Mechnical Engineering Technology from the University of Cincinnati, which included five semesters of co-op experiences, exposing me to a variety of industry positions. 
 
 ***
-### Recent News<h3 id="news"> </h3>
+<h3 id="news">Recent News</h3>
 <ul class="less_space">
     <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
     <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
@@ -38,7 +38,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </dl>
 
 ***
-### Conference Talks<h3 id="talks"> </h3>
+<h3 id="talks">Conference Talks</h3>
 <dl>
 <!---->
     <dt>5. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
@@ -63,7 +63,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </dl>
 
 ***
-### Conference Posters<h3 id="posters"> </h3>
+<h3 id="posters">Conference Posters</h3>
 <dl>
 <!---->
     <dt>2. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
