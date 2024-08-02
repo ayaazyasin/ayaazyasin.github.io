@@ -28,7 +28,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </details>
 
 *** 
-### Peer-Reviewed Publications<h3 id="publications"> </h3>
+<h3 id="publications">Peer-Reviewed Publications</h3>
 
 <dl>
     <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></a></dt>
