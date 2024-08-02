@@ -1,4 +1,4 @@
-## About Me
+### About Me
 
 I am a PhD student in the Department of Mechanical and Materials Engineering at the University of Cincinnati working with the <a href="https://ceas.uc.edu/research/centers-labs/lab-for-interfacial-dynamics.html" target="_blank">UC Lab for Interfacial Dynamics</a> under the supervision of <a href="https://researchdirectory.uc.edu/p/bellurkn" target="_blank">Dr. Kishan Bellur</a>. Broadly my research is focused on modeling liquid-vapor phase change and related interfacial phenomena. Other research interests include computational fluid dynamics for multiphase flows, scientific computing, and fluid mechanics in microgravity. My current research is focused on addressing the use of tuning parameters in phase change models and developing a physics-based computational model of evaporation in cryogenic space fuels such as Hydrogen and Methane. 
 
@@ -8,7 +8,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 
 ***
 
-## Recent News
+### Recent News
 <ul class="less_space">
     <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
     <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
@@ -27,3 +27,13 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
     <li><strong>Aug 2022</strong> Started my Master's in the Dept of Aerospace Engineering.</li>
 </ul>
 </details>
+
+*** 
+### Publications
+
+<dl>
+    <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments.</b></a></dt>
+    <dd>Unmeelan Chakrabarti, \textbf{Ayaaz Yasin}, Kishan Bellur, and Jeffrey Allen</dd>
+    <dd>Frontiers in Space Technologies - Microgravity. Volume 4 - 2023. doi: 10.3389/frspt.2023.1263496</dd>
+    <dd><a href="assets/files/chakrabarti_2023.pdf">PDF</dd>
+</dl>
