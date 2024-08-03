@@ -11,7 +11,7 @@ plugins:
 # Site Author
 author:
   name             : "Ayaaz Yasin"
-  location         : <a href="https://researchdirectory.uc.edu/p/yasinaz" target="_blank">"University of Cincinnati"</a>
+  location         : <a href="https://researchdirectory.uc.edu/p/yasinaz" target="_blank">University of Cincinnati</a>
   email            : "yasinaz@mail.uc.edu"
   cv               : "assets/files/CV_Ayaaz_Yasin.pdf"
   googlescholar    : "https://scholar.google.com/citations?user=OyLSrL0AAAAJ&hl=en&oi=ao"
