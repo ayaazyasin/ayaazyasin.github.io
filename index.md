@@ -43,7 +43,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 <!---->
     <dt>5. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
-    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
+    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 August 2024, Cleveland, OH.</dd>
 <!---->
     <dt>4. <b>Modeling evaporation without tuning coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
@@ -55,11 +55,11 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
     <dd><a href="https://meetings.aps.org/Meeting/DFD23/Session/R36.8" target="_blank">Abstract</a></dd>
 <!---->
     <dt>2. <b>An investigation of Marangoni induced flow in Constrained Vapor Bubble ISS experiments</b></dt>
-    <dd><i><b>Ayaaz Yasin</b>, Unmeelan Chakrabarti, Kishan Bellur, and Jefferey Allen</i></dd>
+    <dd><i><b>Ayaaz Yasin</b>, Unmeelan Chakrabarti, Kishan Bellur, and Jeffrey Allen</i></dd>
     <dd>50th Midwestern University Fluid Mechanics Retreat, 13-15 April 2023, Rochester, IN.</dd>
 <!---->
     <dt>1. <b>University of Cincinnati Aerial Vehicles (UCAV) Team's solution to the 2022 AUVSI Student Unmanned Aerial Systems competition.</b></dt>
-    <dd><i><b>Ayaaz Yasin</b>, Rebecca Gilligan, Daniel Heitmeyer, and Kelley Cohen</i></dd>
+    <dd><i><b>Ayaaz Yasin</b>, Rebecca Gilligan, Daniel Heitmeyer, and Kelly Cohen</i></dd>
     <dd>AIAA Region III Student Conference, 23 March 2022, Purdue University.</dd>
 </dl>
 
@@ -69,7 +69,7 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 <!---->
     <dt>2. <b>Modeling of Evaporation in Cryogenic Fuels Without Tuning Coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
-    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 2024, Cleveland, OH.</dd>
+    <dd>35th NASA Thermal and Fluids Analysis Workshop, 26-30 August 2024, Cleveland, OH.</dd>
 <!---->
     <dt>1. <b>A CFD model of evaporation in liquid Hydrogen without the need for tuning coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
