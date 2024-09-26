@@ -9,14 +9,15 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 ***
 <h2 id="news">Recent News</h2>
 <ul class="less_space">
+    <li><strong>Aug 2024</strong> Presented at the <a href="https://tfaws.nasa.gov/" target="_blank">2024 NASA Thermal and Fluids Analysis Workshop</a>. </li> 
     <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
     <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
     <li><strong>Apr 2024</strong> Presented at the <a href="http://mufmech.org/archive/programs/2024_Program.pdf" target="_blank">2024 Midwest Universities Fluid Mechanics Retreat</a>.</li> 
-    <li><strong>Nov 2023</strong> Published my first paper!</li> 
 </ul>
 <details style="margin-left: 28px;" class="less_space">
 <summary>Older News</summary>
 <ul style="margin-left: -28px;">
+    <li><strong>Nov 2023</strong> Published my first paper!</li> 
     <li><strong>Nov 2023</strong> Presented at the <a href="https://meetings.aps.org/Meeting/DFD23/Session/R36.8" target="_blank">2023 American Physical Society Division of Fluid Dynamics</a> conference.</li> 
     <li><strong>Aug 2023</strong> Started teaching ENED 1100 and 1120 Foundations of Engineering Design Thinking as the instructor of record.</li>
     <li><strong>Apr 2023</strong> Presented at the <a href="http://mufmech.org/archive/programs/2023_Program.pdf" target="_blank">2023 Midwest Universities Fluid Mechanics Retreat</a>.</li> 
