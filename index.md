@@ -29,16 +29,18 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 </details>
 
 *** 
-<h2 id="publications">Publications</h2>
+<h2 id="publications" style="margin-bottom: 0;">Publications</h2>
 *shows equal contribution authors.
 
 <dl>
-    <dt>2. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=ucin1721145569029244" target="_blank"><b>Computational Modeling of Evaporation Without Tuning Coefficients</b></a></dt>
-    <dd><b>Ayaaz Yasin*</b></dd></dd>
-    <dt>1. <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank"><b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></a></dt>
+    <dt>2. <b>Computational Modeling of Evaporation Without Tuning Coefficients</b></dt>
+    <dd><b>Ayaaz Yasin*</b></dd>
+    <dd>2024</dd>
+    <dd><a href="http://rave.ohiolink.edu/etdc/view?acc_num=ucin1721145569029244" target="_blank">DOI</a></dd>
+    <dt>1. <b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></dt>
     <dd><i>Unmeelan Chakrabarti*, <b>Ayaaz Yasin*</b>, Kishan Bellur, and Jeffrey Allen</i></dd>
     <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
-    <dd><a href="assets/files/chakrabarti_2023.pdf" target="_blank">PDF</a></dd>
+    <dd><a href="assets/files/chakrabarti_2023.pdf" target="_blank">PDF</a> &#x2022; <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank">DOI</a></dd>
 </dl>
 
 ***
