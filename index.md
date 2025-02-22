@@ -34,10 +34,10 @@ Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my B
 *shows equal contribution authors.
 
 <dl>
-    <dt>2. <b>Computational Modeling of Evaporation Without Tuning Coefficients</b></dt>
-    <dd><b>Ayaaz Yasin*</b></dd>
-    <dd>2024</dd>
-    <dd><a href="http://rave.ohiolink.edu/etdc/view?acc_num=ucin1721145569029244" target="_blank">DOI</a></dd>
+    <dt>2. <b>Computational Modeling of Evaporation without Tuning Coefficients</b></dt>
+    <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
+    <dd>Applied Thermal Engineering (Under Review).</dd>
+    <dd><a href="https://www.doi.org/10.2139/ssrn.5141385" target="_blank">DOI</a></dd>
     <dt>1. <b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></dt>
     <dd><i>Unmeelan Chakrabarti*, <b>Ayaaz Yasin*</b>, Kishan Bellur, and Jeffrey Allen</i></dd>
     <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
