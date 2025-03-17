@@ -1,22 +1,23 @@
 <h2 id="about">About Me</h2>
 
-I am a PhD student in the Department of Mechanical and Materials Engineering at the University of Cincinnati working with the <a href="https://ceas.uc.edu/research/centers-labs/lab-for-interfacial-dynamics.html" target="_blank">UC Lab for Interfacial Dynamics</a> under the supervision of <a href="https://researchdirectory.uc.edu/p/bellurkn" target="_blank">Dr. Kishan Bellur</a>. Broadly my research is focused on modeling liquid-vapor phase change and related interfacial phenomena. Other research interests include computational fluid dynamics for multiphase flows, scientific computing, and fluid mechanics in microgravity. My current research is focused on understanding oscillations in thin liquid films and the role that phase change plays in their dynamics and stability. 
+I am a PhD student in the Department of Mechanical and Materials Engineering at the University of Cincinnati working with the <a href="https://ceas.uc.edu/research/centers-labs/lab-for-interfacial-dynamics.html" target="_blank">UC Lab for Interfacial Dynamics</a> under the supervision of <a href="https://researchdirectory.uc.edu/p/bellurkn" target="_blank">Dr. Kishan Bellur</a>. 
 
-During my graduate career, I have worked as a Research Assistant at the <a href="https://ceas.uc.edu/research/centers-labs/uc-simulation-center.html" target="_blank">P&G Digital Accelerator at UC</a> studying methods to optimize algorithms for bounding box calculations. I have also taught two undergraduate courses as the instructor of record, teaching 300 first year students in the College of Engineering and Applied Science.
+My research primarily focuses on understanding and modeling liquid-vapor phase change and related phenomena. Recently, I have worked on developing coefficient-free algorithms for modeling evaporation in Hydrogen and Methane, as well as investigating phase change-induced flow patterns and surface instabilities observed in ISS experiments. My current research attempts to understand the role of phase change in the stability and dynamics of moving contact lines.
 
-Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my Bachelor of Science in Mechnical Engineering Technology from the University of Cincinnati, which included five semesters of co-op experiences, exposing me to a variety of industry positions. 
+
+During my graduate career, I have worked as a Research Assistant at the <a href="https://ceas.uc.edu/research/centers-labs/uc-simulation-center.html" target="_blank">P&G Digital Accelerator at UC</a> studying methods to optimize algorithms for bounding box calculations. I have also taught two undergraduate courses as the instructor of record, teaching 300 first-year students in the College of Engineering and Applied Science. Prior to my PhD, I earned my Master of Science in Aerospace Engineering and my Bachelor of Science in Mechanical Engineering Technology from the University of Cincinnati, which included five semesters of co-op experiences, exposing me to a variety of industry positions. 
 
 ***
 <h2 id="news">Recent News</h2>
 <ul class="less_space">
-    <li><strong>Mar 2025</strong> Presenting at the <a href="https://www.astfe.org/tfec2025/" target="_blank">2025 ASTFE Thermal and Fluids Engineering Conference</a>. </li> 
+    <li><strong>Mar 2025</strong> Presented at the <a href="https://www.astfe.org/tfec2025/" target="_blank">2025 ASTFE Thermal and Fluids Engineering Conference</a>. </li> 
     <li><strong>Aug 2024</strong> Presented at the <a href="https://tfaws.nasa.gov/" target="_blank">2024 NASA Thermal and Fluids Analysis Workshop</a>. </li> 
-    <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
-    <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
 </ul>
 <details style="margin-left: 28px;" class="less_space">
 <summary>Older News</summary>
 <ul style="margin-left: -28px;">
+    <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
+    <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
     <li><strong>Apr 2024</strong> Presented at the <a href="http://mufmech.org/archive/programs/2024_Program.pdf" target="_blank">2024 Midwest Universities Fluid Mechanics Retreat</a>.</li> 
     <li><strong>Nov 2023</strong> Published my first paper!</li> 
     <li><strong>Nov 2023</strong> Presented at the <a href="https://meetings.aps.org/Meeting/DFD23/Session/R36.8" target="_blank">2023 American Physical Society Division of Fluid Dynamics</a> conference.</li> 
