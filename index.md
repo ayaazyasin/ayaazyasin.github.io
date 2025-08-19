@@ -37,8 +37,8 @@ During my graduate career, I have worked as a Research Assistant at the <a href=
 <dl>
     <dt>2. <b>Computational Modeling of Evaporation without Tuning Coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
-    <dd>Applied Thermal Engineering (Under Review).</dd>
-    <dd><a href="https://www.doi.org/10.2139/ssrn.5141385" target="_blank">DOI</a></dd>
+    <dd>Applied Thermal Engineering. 2025.</dd>
+    <dd><a href="https://www.doi.org/10.1016/j.applthermaleng.2025.126807" target="_blank">DOI</a></dd>
     <dt>1. <b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></dt>
     <dd><i>Unmeelan Chakrabarti*, <b>Ayaaz Yasin*</b>, Kishan Bellur, and Jeffrey Allen</i></dd>
     <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
