@@ -36,14 +36,14 @@ During my graduate career, I have worked as a Research Assistant at the <a href=
 
 <dl>
     <dt>3. <b>A multiscale CFD model of evaporating Hydrogen menisci: Incorporating subgrid thin-film dynamics and in situ accommodation coefficients</b></dt>
-    <dd><i><b>Ayaaz Yasin</b>, Saaras Pakanati, and Kishan Bellur</i></dd>
+    <dd><i><b>Ayaaz Yasin</b>*, Saaras Pakanati*, and Kishan Bellur</i></dd>
     <dd>Fuels. Under Review.</dd>
     <dt>2. <b>Computational Modeling of Evaporation without Tuning Coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
     <dd>Applied Thermal Engineering. 2025.</dd>
-    <dd><a href="assets/files/yasin_2025.pdf" target="_blank">PDF</a> &#x2022; <dd><a href="https://www.doi.org/10.1016/j.applthermaleng.2025.126807" target="_blank">DOI</a></dd>
+    <dd><a href="assets/files/yasin_2025.pdf" target="_blank">PDF</a> &#x2022; <a href="https://www.doi.org/10.1016/j.applthermaleng.2025.126807" target="_blank">DOI</a></dd>
     <dt>1. <b>An investigation of phase change induced Marangoni-dominated flow patterns using the Constrained Vapor Bubble Data from ISS experiments</b></dt>
-    <dd><i>Unmeelan Chakrabarti*, <b>Ayaaz Yasin*</b>, Kishan Bellur, and Jeffrey Allen</i></dd>
+    <dd><i>Unmeelan Chakrabarti*, <b>Ayaaz Yasin</b>*, Kishan Bellur, and Jeffrey Allen</i></dd>
     <dd>Frontiers in Space Technologies - Microgravity. 2023.</dd>
     <dd><a href="assets/files/chakrabarti_2023.pdf" target="_blank">PDF</a> &#x2022; <a href="https://www.frontiersin.org/journals/space-technologies/articles/10.3389/frspt.2023.1263496/full" target="_blank">DOI</a></dd>
 </dl>
