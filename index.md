@@ -10,12 +10,15 @@ During my graduate career, I have worked as a Research Assistant at the <a href=
 ***
 <h2 id="news">Recent News</h2>
 <ul class="less_space">
-    <li><strong>Mar 2025</strong> Presented at the <a href="https://www.astfe.org/tfec2025/" target="_blank">2025 ASTFE Thermal and Fluids Engineering Conference</a>. </li> 
-    <li><strong>Aug 2024</strong> Presented at the <a href="https://tfaws.nasa.gov/" target="_blank">2024 NASA Thermal and Fluids Analysis Workshop</a>. </li> 
+    <li><strong>Dec 2025</strong> New paper published in Fuels. </li> 
+    <li><strong>Dec 2025</strong> Successfully passed my PhD qualifier exams. </li> 
+    <li><strong>Jul 2025</strong> New paper published in Applied Thermal Engineering. </li> 
 </ul>
 <details style="margin-left: 28px;" class="less_space">
 <summary>Older News</summary>
 <ul style="margin-left: -28px;">
+    <li><strong>Mar 2025</strong> Presented at the <a href="https://www.astfe.org/tfec2025/" target="_blank">2025 ASTFE Thermal and Fluids Engineering Conference</a>. </li> 
+    <li><strong>Aug 2024</strong> Presented at the <a href="https://tfaws.nasa.gov/" target="_blank">2024 NASA Thermal and Fluids Analysis Workshop</a>. </li> 
     <li><strong>Aug 2024</strong> Started my PhD in the Dept of Mechanical Engineering.</li>
     <li><strong>May 2024</strong> Defended my Master's thesis!</li> 
     <li><strong>Apr 2024</strong> Presented at the <a href="http://mufmech.org/archive/programs/2024_Program.pdf" target="_blank">2024 Midwest Universities Fluid Mechanics Retreat</a>.</li> 
