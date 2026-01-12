@@ -40,7 +40,8 @@ During my graduate career, I have worked as a Research Assistant at the <a href=
 <dl>
     <dt>3. <b>A multiscale CFD model of evaporating Hydrogen menisci: Incorporating subgrid thin-film dynamics and in situ accommodation coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b>*, Saaras Pakanati*, and Kishan Bellur</i></dd>
-    <dd>Fuels. Accepted.</dd>
+    <dd>Fuels. 2026.</dd>
+    <dd><a href="assets/files/yasin_2026.pdf" target="_blank">PDF</a> &#x2022; <a href="https://www.doi.org/10.3390/fuels7010003" target="_blank">DOI</a></dd>
     <dt>2. <b>Computational Modeling of Evaporation without Tuning Coefficients</b></dt>
     <dd><i><b>Ayaaz Yasin</b> and Kishan Bellur</i></dd>
     <dd>Applied Thermal Engineering. 2025.</dd>
