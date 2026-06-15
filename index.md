@@ -20,7 +20,7 @@ I previously earned a Master of Science in Aerospace Engineering and a Bachelor 
     <dd>
 		<a href="assets/files/sarchami_2026.pdf" target="_blank">PDF</a> &#x2022; 
 		<a href="https://www.doi.org/10.1021/acs.langmuir.5c06748" target="_blank">DOI</a> &#x2022;
-		<a href="assets/files/sarchami_2026_cover.jpg" target="_blank">Cover Art</a> &#x2022; 
+		<a href="assets/files/sarchami_2026_cover.jpg" target="_blank">Cover Art</a>
 	</dd>
 	<!-- -->
     <dt>3. A multiscale CFD model of evaporating hydrogen menisci: Incorporating subgrid thin-film dynamics and in situ accommodation coefficients</dt>
