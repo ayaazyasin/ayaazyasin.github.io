@@ -1,0 +1,205 @@
+---
+permalink: /mug/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Mug Image Cropper &middot; Ayaaz Yasin</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff;
+    --accent:#3f51b5; --accent-ink:#ffffff; --soft:#f6f7f9; --err:#b3261e;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:28px 20px 64px}
+  a{color:var(--accent)}
+  header.page{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:8px}
+  header.page h1{font-size:1.5rem; margin:0}
+  header.page .home{font-size:.9rem; text-decoration:none}
+  .lede{color:var(--muted); margin:2px 0 22px; font-size:.97rem}
+  .card{border:1px solid var(--line); border-radius:12px; padding:18px; margin-bottom:20px; background:var(--bg)}
+  .card h2{font-size:1.02rem; margin:0 0 4px}
+  .card .hint{color:var(--muted); font-size:.86rem; margin:0 0 14px}
+  input[type=file]{display:none}
+  .btn{
+    display:inline-block; border:1px solid var(--line); background:var(--soft); color:var(--ink);
+    padding:10px 16px; border-radius:9px; font-size:.92rem; cursor:pointer; font-weight:600;
+  }
+  .btn:hover{background:#eef0f4}
+  .btn.primary{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+  .btn.primary:hover{filter:brightness(1.06)}
+  .btn:disabled{opacity:.5; cursor:not-allowed}
+  #editor{display:none}
+  .stage{
+    position:relative; width:100%; height:60vh; min-height:340px; max-height:640px;
+    background:#111; border-radius:10px; overflow:hidden;
+  }
+  .stage img{display:block; max-width:100%}
+  .controls{display:flex; align-items:center; gap:14px; margin-top:14px; flex-wrap:wrap}
+  .controls label{font-size:.85rem; color:var(--muted); min-width:44px}
+  input[type=range]{flex:1; min-width:160px; accent-color:var(--accent)}
+  .ratio-note{font-size:.82rem; color:var(--muted); margin-top:10px}
+  .downloadrow{display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-top:16px}
+  select{
+    padding:9px 10px; border:1px solid var(--line); border-radius:8px; font:inherit; font-size:.9rem;
+    background:var(--bg); color:var(--ink);
+  }
+  #msg{font-size:.86rem; color:var(--muted); margin:0}
+  #msg.err{color:var(--err)}
+  .foot{color:var(--muted); font-size:.8rem; text-align:center; margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <h1>Mug Image Cropper</h1>
+    <a class="home" href="/">&larr; ayaazyasin.github.io</a>
+  </header>
+  <p class="lede">Upload an image, position it inside the print frame, and download the crop. The frame is locked to the mug wrap size of <strong>5.52&nbsp;&times;&nbsp;11.89&nbsp;in</strong> (portrait).</p>
+
+  <div class="card">
+    <h2>1&nbsp;&middot;&nbsp;Choose an image</h2>
+    <p class="hint">JPG or PNG. Higher-resolution originals give a sharper print.</p>
+    <label>
+      <span class="btn">Choose image&hellip;</span>
+      <input type="file" id="file" accept="image/*">
+    </label>
+
+    <div id="editor">
+      <div class="stage"><img id="image" alt="to crop"></div>
+      <div class="controls">
+        <label for="zoom">Zoom</label>
+        <input type="range" id="zoom" min="0" max="1" step="0.001" value="0">
+        <button type="button" class="btn" id="reset">Reset</button>
+      </div>
+      <p class="ratio-note">Drag to reposition &middot; pinch, scroll, or use the slider to zoom. Everything inside the bright frame is exported.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2&nbsp;&middot;&nbsp;Download the crop</h2>
+    <p class="hint">Exported at the full resolution of the area you selected.</p>
+    <div class="downloadrow">
+      <label for="fmt" style="font-size:.86rem;font-weight:600;">Format</label>
+      <select id="fmt">
+        <option value="png">PNG (lossless, best for figures/text)</option>
+        <option value="jpg">JPG (smaller file)</option>
+      </select>
+      <button type="button" class="btn primary" id="download" disabled>Download cropped image</button>
+      <p id="msg"></p>
+    </div>
+  </div>
+
+  <p class="foot">Runs entirely in your browser &mdash; nothing is uploaded anywhere.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+<script>
+(function(){
+  var ASPECT = 5.52 / 11.89; // width / height (portrait)
+
+  var fileInput = document.getElementById('file');
+  var image     = document.getElementById('image');
+  var editor    = document.getElementById('editor');
+  var zoom      = document.getElementById('zoom');
+  var resetBtn  = document.getElementById('reset');
+  var fmt       = document.getElementById('fmt');
+  var dlBtn     = document.getElementById('download');
+  var msg       = document.getElementById('msg');
+  var cropper   = null;
+  var zoomMin = 0, zoomMax = 1;
+
+  function setMsg(t, err){ msg.textContent = t || ''; msg.className = err ? 'err' : ''; }
+
+  fileInput.addEventListener('change', function(e){
+    var f = e.target.files && e.target.files[0];
+    if(!f) return;
+    if(!/^image\//.test(f.type)){ setMsg('Please choose an image file.', true); return; }
+    var url = URL.createObjectURL(f);
+    if(cropper){ cropper.destroy(); cropper = null; }
+    image.src = url;
+    editor.style.display = 'block';
+    setMsg('');
+    cropper = new Cropper(image, {
+      aspectRatio: ASPECT,
+      viewMode: 1,
+      dragMode: 'move',
+      autoCropArea: 1,
+      cropBoxMovable: false,
+      cropBoxResizable: false,
+      toggleDragModeOnDblclick: false,
+      guides: true,
+      center: true,
+      background: true,
+      ready: function(){
+        var d = cropper.getImageData();
+        zoomMin = d.width / d.naturalWidth; // current fit ratio
+        zoomMax = zoomMin * 4;              // allow up to 4x
+        zoom.value = 0;
+        dlBtn.disabled = false;
+      }
+    });
+  });
+
+  zoom.addEventListener('input', function(){
+    if(!cropper) return;
+    var r = parseFloat(zoom.value);
+    cropper.zoomTo(zoomMin + (zoomMax - zoomMin) * r);
+  });
+
+  image.addEventListener('zoom', function(){
+    if(!cropper) return;
+    setTimeout(function(){
+      var d = cropper.getImageData();
+      var cur = d.width / d.naturalWidth;
+      var r = (cur - zoomMin) / (zoomMax - zoomMin);
+      zoom.value = Math.max(0, Math.min(1, r));
+    }, 0);
+  });
+
+  resetBtn.addEventListener('click', function(){
+    if(!cropper) return;
+    cropper.reset();
+    zoom.value = 0;
+  });
+
+  dlBtn.addEventListener('click', function(){
+    if(!cropper){ setMsg('Please choose an image first.', true); return; }
+    setMsg('Rendering…');
+    var canvas = cropper.getCroppedCanvas({
+      imageSmoothingEnabled: true,
+      imageSmoothingQuality: 'high'
+    });
+    if(!canvas){ setMsg('Could not read the image. Try another file.', true); return; }
+
+    var isPng = fmt.value === 'png';
+    var type = isPng ? 'image/png' : 'image/jpeg';
+    var ext  = isPng ? 'png' : 'jpg';
+
+    canvas.toBlob(function(blob){
+      if(!blob){ setMsg('Could not export the image.', true); return; }
+      var a = document.createElement('a');
+      var href = URL.createObjectURL(blob);
+      a.href = href;
+      a.download = 'mug_crop_' + canvas.width + 'x' + canvas.height + '.' + ext;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(function(){ URL.revokeObjectURL(href); }, 4000);
+      setMsg('Downloaded ' + canvas.width + ' × ' + canvas.height + ' px.');
+    }, type, isPng ? undefined : 0.95);
+  });
+})();
+</script>
+</body>
+</html>
