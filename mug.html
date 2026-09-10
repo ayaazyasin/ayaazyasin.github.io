@@ -65,7 +65,7 @@ sitemap: false
     <h1>Mug Image Cropper</h1>
     <a class="home" href="/">&larr; ayaazyasin.github.io</a>
   </header>
-  <p class="lede">Upload an image, position it inside the print frame, and download the crop. The frame is locked to the mug wrap size of <strong>5.52&nbsp;&times;&nbsp;11.89&nbsp;in</strong> (portrait).</p>
+  <p class="lede">Upload an image, position it inside the print frame, and download the crop. The frame is locked to the mug wrap size of <strong>11.89&nbsp;&times;&nbsp;5.52&nbsp;in</strong> (horizontal).</p>
 
   <div class="card">
     <h2>1&nbsp;&middot;&nbsp;Choose an image</h2>
@@ -106,7 +106,7 @@ sitemap: false
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
 <script>
 (function(){
-  var ASPECT = 5.52 / 11.89; // width / height (portrait)
+  var ASPECT = 11.89 / 5.52; // width / height (horizontal)
 
   var fileInput = document.getElementById('file');
   var image     = document.getElementById('image');
