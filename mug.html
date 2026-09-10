@@ -69,10 +69,10 @@ sitemap: false
 
   <div class="card">
     <h2>1&nbsp;&middot;&nbsp;Choose an image</h2>
-    <p class="hint">JPG or PNG. Higher-resolution originals give a sharper print.</p>
+    <p class="hint">JPG, PNG, or PDF. Higher-resolution originals give a sharper print. For a PDF, the first page is used.</p>
     <label>
-      <span class="btn">Choose image&hellip;</span>
-      <input type="file" id="file" accept="image/*">
+      <span class="btn">Choose image or PDF&hellip;</span>
+      <input type="file" id="file" accept="image/*,application/pdf,.pdf">
     </label>
 
     <div id="editor">
@@ -104,6 +104,7 @@ sitemap: false
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
 (function(){
   var ASPECT = 11.89 / 5.52; // width / height (horizontal)
@@ -119,17 +120,45 @@ sitemap: false
   var cropper   = null;
   var zoomMin = 0, zoomMax = 1;
 
+  if(window.pdfjsLib){
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+  }
+
   function setMsg(t, err){ msg.textContent = t || ''; msg.className = err ? 'err' : ''; }
 
-  fileInput.addEventListener('change', function(e){
-    var f = e.target.files && e.target.files[0];
-    if(!f) return;
-    if(!/^image\//.test(f.type)){ setMsg('Please choose an image file.', true); return; }
-    var url = URL.createObjectURL(f);
+  function isPdf(f){ return f.type === 'application/pdf' || /\.pdf$/i.test(f.name || ''); }
+
+  // Render the first page of a PDF to a high-resolution PNG data URL.
+  function renderPdf(file){
+    return file.arrayBuffer().then(function(buf){
+      return pdfjsLib.getDocument({ data: buf }).promise;
+    }).then(function(pdf){
+      return pdf.getPage(1);
+    }).then(function(page){
+      var base = page.getViewport({ scale: 1 });
+      var longSide = Math.max(base.width, base.height);
+      var MINDIM = 2600, MAXDIM = 4000;      // aim for a print-ready raster
+      var scale = MINDIM / longSide;
+      if(longSide * scale > MAXDIM) scale = MAXDIM / longSide;
+      if(scale < 1) scale = 1;               // never downscale a large page
+      var vp = page.getViewport({ scale: scale });
+      var c = document.createElement('canvas');
+      c.width = Math.round(vp.width);
+      c.height = Math.round(vp.height);
+      var ctx = c.getContext('2d');
+      ctx.fillStyle = '#ffffff';             // flatten any transparency to white
+      ctx.fillRect(0, 0, c.width, c.height);
+      return page.render({ canvasContext: ctx, viewport: vp }).promise.then(function(){
+        return c.toDataURL('image/png');
+      });
+    });
+  }
+
+  function initCropper(src){
     if(cropper){ cropper.destroy(); cropper = null; }
-    image.src = url;
+    image.src = src;
     editor.style.display = 'block';
-    setMsg('');
     cropper = new Cropper(image, {
       aspectRatio: ASPECT,
       viewMode: 1,
@@ -149,6 +178,27 @@ sitemap: false
         dlBtn.disabled = false;
       }
     });
+  }
+
+  fileInput.addEventListener('change', function(e){
+    var f = e.target.files && e.target.files[0];
+    if(!f) return;
+
+    if(isPdf(f)){
+      if(!window.pdfjsLib){ setMsg('PDF support failed to load. Please try an image instead.', true); return; }
+      setMsg('Reading PDF…');
+      renderPdf(f).then(function(dataUrl){
+        setMsg('');
+        initCropper(dataUrl);
+      }).catch(function(err){
+        setMsg('Could not read that PDF. Try another file or an image. (' + (err && err.message ? err.message : err) + ')', true);
+      });
+      return;
+    }
+
+    if(!/^image\//.test(f.type)){ setMsg('Please choose an image or PDF file.', true); return; }
+    setMsg('');
+    initCropper(URL.createObjectURL(f));
   });
 
   zoom.addEventListener('input', function(){
